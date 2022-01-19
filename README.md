@@ -72,7 +72,9 @@ Published pipeline overview:
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Link to my video:
+https://youtu.be/vvzYhFkSuf4
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+I think some people can get lost when trying to send a data load to the API. The files provided as data load use a different order for the input, which will result in an error when the service try to process the data.
+
