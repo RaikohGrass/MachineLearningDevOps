@@ -51,7 +51,25 @@ Loggings:
 
 ![EduardoGP - model post answer](https://user-images.githubusercontent.com/83981857/150123485-959c0100-2c86-44b4-9704-28bbc629d4ab.PNG)
 
-- 
+- Having published the model we can communicate with it using the URL of the endpoint and the generated access key. From the swagger documentation we get to know how we should send the data load to the API. If everything runds smoothly we can see something like this:
+![EduardoGP - endpoint interaction](https://user-images.githubusercontent.com/83981857/150123893-b1aa838e-b26b-428e-961b-b910405bb8f5.PNG)
+
+- We can also testbench our API by using Apache testbench. Here we can define a data load and send it multiple times to check the response times and if any time outs arise
+![EduardoGP - Apache Testbench](https://user-images.githubusercontent.com/83981857/150124347-57f78226-8b5a-4fcf-b9bf-ea79ce91d90f.PNG)
+
+- Using the steps defined in the diagram above we can define and puslih a pipeline that uses autoML to generate a model from our data:
+![EduardoGP - pipeline endpoint](https://user-images.githubusercontent.com/83981857/150124909-396f5199-d0c1-4826-9483-31f03f8637dd.PNG)
+
+Run using our pipeline:
+![EduardoGP - pipeline](https://user-images.githubusercontent.com/83981857/150124950-588aedf9-67ec-4bd4-b85e-fe29e00a97cd.PNG)
+
+Details while running the pipeline run:
+![EduardoGP - RunWidget Steps](https://user-images.githubusercontent.com/83981857/150124994-f4e5af4b-f2b2-4e55-b77e-5f9c4c711f77.PNG)
+
+Published pipeline overview:
+![EduardoGP - active pipeline](https://user-images.githubusercontent.com/83981857/150125063-975a8fe7-4ebc-4a22-a2ba-ea039eb17bd8.PNG)
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
