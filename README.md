@@ -1,10 +1,13 @@
 
 # Machine Learning DevOps with Microsoft Azure
 
-*TODO:* The objective of this project is to show how we can automate some of the common machine learning tasks using the tools provided by Microsoft Azure. We will focus specially in the automatated creation of Machine Learning models using AutoML and the designing of ML pipelines, which can include any amount of data handling steps like processing of data sets, auto ML operations, publishing of models, etc. 
+The objective of this project is to show how we can automate some of the common machine learning tasks using the tools provided by Microsoft Azure. We will focus specially in the automatated creation of Machine Learning models using AutoML and the designing of ML pipelines, which can include any amount of data handling steps like processing of data sets, auto ML operations, publishing of models, etc. 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+### Developing and publishing a model with AutoML
+The following diagram shows a summarized process of how a model can be created and published using AutoML
+![image](https://user-images.githubusercontent.com/83981857/150114927-1efdea4f-cbfd-4f8b-8176-b0b8f333aa26.png)
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
