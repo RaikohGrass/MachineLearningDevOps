@@ -8,6 +8,7 @@ The objective of this project is to show how we can automate some of the common 
 The following diagram shows a summarized process of how a model can be created and published using AutoML
 ![image](https://user-images.githubusercontent.com/83981857/150114927-1efdea4f-cbfd-4f8b-8176-b0b8f333aa26.png)
 
+- 
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
