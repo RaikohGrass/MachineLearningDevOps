@@ -80,6 +80,6 @@ Published pipeline overview:
 Link to my video:
 https://youtu.be/vvzYhFkSuf4
 
-## Standout Suggestions
+## Future improvement suggetions
 I think some people can get lost when trying to send a data load to the API. The files provided as data load use a different order for the input, which will result in an error when the service try to process the data.
 
