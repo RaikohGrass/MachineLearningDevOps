@@ -3,6 +3,11 @@
 
 The objective of this project is to show how we can automate some of the common machine learning tasks using the tools provided by Microsoft Azure. We will focus specially in the automatated creation of Machine Learning models using AutoML and the designing of ML pipelines, which can include any amount of data handling steps like processing of data sets, auto ML operations, publishing of models, etc. 
 
+We will see as well how a model trained with AutoML can be published as a web service and consumed used the endpoint URL provided by Microsoft Azure. In our case we will use an ACI to publish our model. This makes the web service available for anyone who we share the authentication key with.
+
+Regarding the pipeline to be developed, we will also publish it to create an endpoint which can be used by others who could work on our project. This reflects the ability to easily automate a series of ML tasks in the Azure environment. Any person that we authorize will be able to use their version of their data set to train automatically many ML models. It would be able to further expand the pipeline to publish the models or do some other ML ops like cleaning data. 
+
+
 ## Architectural Diagram
 ### Developing and publishing a model with AutoML
 The following diagram shows a summarized process of how a model can be created and published using AutoML
