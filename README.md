@@ -80,6 +80,14 @@ Published pipeline overview:
 Link to my video:
 https://youtu.be/vvzYhFkSuf4
 
-## Future improvement suggetions
+
+## Future improvements
+- An improvement to the pipeline would be to make possible for the use to select the optimization criteria for the AutoML run by using an input parameter. This way we could train multiple models using different optimized measures and compare them to see which satisfy our needs.
+- In general there are many parameters which could be added as an input of the pipeline endpoint to customize the user´s run. For example being able to add restriction to models for the AutoML trainer, the variable which should be predicted, or the time before a timeout. 
+Another add-on would be to include a data processing step based on a pre-written script. This would save the user time by checking the validity of the input data and making sure that the data structure is the correct one for the endpoint of the model. Preventing an autoML run with wrong data saves a lot of time and compute resources. 
+
+
+
+## Suggestions for the project
 I think some people can get lost when trying to send a data load to the API. The files provided as data load use a different order for the input, which will result in an error when the service try to process the data.
 
